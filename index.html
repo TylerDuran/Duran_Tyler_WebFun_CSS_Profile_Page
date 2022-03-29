@@ -26,7 +26,7 @@
                     <div class="blankheader"></div>
                     <div class="bottom">
                         <img src="icons/user-circle.png" alt="Profile picture" class="user-profile-pic">
-                        <h2 class="user-name">Jane Doe</h2>
+                        <h2 class="user-name" id="pname">Jane Doe</h2>
                         <h3 class="user-loacation">
                             <img src="icons/map-marker.png" alt="map-marker" class="map-marker">Seattle
                         </h3>
@@ -35,7 +35,7 @@
                             <h4 class="description">Master of shadows and the internet!</h4>
                         </div>
                         <div class="user-edit">
-                            <img src="icons/gear.png" alt="gear" class="gear"><a href="#"> edit profile</a>
+                            <img src="icons/gear.png" alt="gear" class="gear"><a onclick="changeName()" href="#"> edit profile</a>
                         </div>
                     </div>
                 </div>
@@ -61,11 +61,11 @@
                     <div class="cr-bor">
                         <div class="c1">
                             <h4 class="gap"><img src="icons/user-circle.png" alt="profile picture" class="crprof">Todd E</h4>
-                            <div><img src="icons/accept-circle.png" alt="accept icon" class="accept"><img src="icons/close-circle.png" alt="decline icon" class="decline"></div>
+                            <div><img onclick="hide(this)" src="icons/accept-circle.png" alt="accept icon" class="accept"><img onclick="hide(this)" src="icons/close-circle.png" alt="decline icon" class="decline"></div>
                         </div>
                         <div class="c2">
                             <h4 class="gap"><img src="icons/user-circle.png" alt="profile picture" class="crprof">Phil K</h4>
-                            <div><img src="icons/accept-circle.png" alt="accept icon" class="accept"><img src="icons/close-circle.png" alt="decline icon" class="decline"></div>
+                            <div><img onclick="hide(this)" src="icons/accept-circle.png" alt="accept icon" class="accept"><img onclick="hide(this)" src="icons/close-circle.png" alt="decline icon" class="decline"></div>
                         </div>
                     </div>
                 </div>
@@ -89,6 +89,7 @@
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
 
