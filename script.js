@@ -1,11 +1,15 @@
 /*******************************/
     // Remove 
 
-function hide(element) {
-    element.remove();
+function removeUser(){
+    var getRid = document.querySelector("#ur1")
+    getRid.remove()
 }
 
-
+function removeUser2(){
+    var getRid = document.querySelector("#ur2")
+    getRid.remove()
+}
 /*******************************/
     // Change Name
 
